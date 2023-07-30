@@ -57,6 +57,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine($"{num} -> {(Palindrom(num) ? "Yes" : "No")}"); // нашла конструкцию в интернете 
 */
 // Task 19 решение с сокращенным вариантом еще один, без использования left и right 
+// на самом деле я только сейчас начала полностью понимать что я делать XD
 /*
 bool Palindrom(int num)
 {
@@ -75,12 +76,6 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine($"{num} -> {(Palindrom(num) ? "Yes" : "No")}");
 */
-
-
-//// bool MassivPolindrom(int num) {
-////     string numStr = num.ToString();
-////    int[] massiv = new int[numStr.Length];
-//// }
 
 // Task 21 Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 // A (3,6,8); B (2,1,-7), -> 15.84
