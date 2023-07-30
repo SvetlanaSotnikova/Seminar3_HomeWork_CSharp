@@ -74,7 +74,7 @@ double GetDistance(double x1, double y1, double z1, double x2, double y2, double
     return Math.Sqrt((Math.Pow(deltaX, 2) + Math.Pow(deltaY, 2) + Math.Pow(deltaZ, 2)));
 }
 Console.Write("x1 = ");
-double X1 = Convert.ToInt32(Console.ReadLine());
+double X1 = Convert.ToInt32(Console.ReadLine()); // or ToDouble()
 Console.Write("Y1 = ");
 double Y1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Z1 = ");
@@ -103,7 +103,7 @@ int i = 0;
 while (i < list.Length)
 {
     Console.Write($"{list[i]} = ");
-    val[i] = Convert.ToInt32(Console.ReadLine());
+    val[i] = Convert.ToInt32(Console.ReadLine()); // or ToDouble()
     i++;
 }
 
