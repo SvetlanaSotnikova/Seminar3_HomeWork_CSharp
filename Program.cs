@@ -56,6 +56,26 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine($"{num} -> {(Palindrom(num) ? "Yes" : "No")}"); // нашла конструкцию в интернете 
 */
+// Task 19 решение с сокращенным вариантом еще один, без использования left и right 
+/*
+bool Palindrom(int num)
+{
+    string numStr = num.ToString();
+    int len = numStr.Length;
+
+    int i = 0;
+    while (i < numStr.Length - 1 && numStr[i] == numStr[len - 1 - i])
+    { 
+        i++;
+    }
+    return i >= numStr.Length - 1;
+}
+Console.Write("your num: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine($"{num} -> {(Palindrom(num) ? "Yes" : "No")}");
+*/
+
 
 //// bool MassivPolindrom(int num) {
 ////     string numStr = num.ToString();
