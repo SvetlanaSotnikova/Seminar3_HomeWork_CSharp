@@ -89,6 +89,7 @@ double Z2 = Convert.ToInt32(Console.ReadLine());
 double distanse = Math.Round(GetDistance(X1, Y1, Z1, X2, Y2, Z2),2);
 Console.WriteLine($"A ({X1},{Y1},{Z1}); B ({X2},{Y2},{Z2}) -> {distanse}");
 */
+
 // Task 21 Сокращенный вариант
 /*
 double GetDistance(double x1, double y1, double z1, double x2, double y2, double z2)
